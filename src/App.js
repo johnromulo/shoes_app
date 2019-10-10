@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
+import GlobalStyle from './styles/global';
 
- class App extends Component {
-  
+class App extends Component {
   render() {
-    return <h1>App</h1>
+    return (
+      <>
+        <GlobalStyle />
+        <h1>App</h1>
+      </>
+    );
   }
 }
 
